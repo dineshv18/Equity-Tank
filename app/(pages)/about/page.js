@@ -50,7 +50,7 @@ const About = () => {
       </div>
 
       <div className="lg:mt-14 sm:mt-10 mt-12">
-        <CarouselScroll images={images} timing={2500} />
+        <CarouselScroll images={images} />
       </div>
 
       <div className="lg:mt-16 sm:mt-12 mt-16 flex lg:flex-row justify-between flex-col lg:gap-8 gap-12">
@@ -78,60 +78,62 @@ const About = () => {
           <h2 className="font-bold my-2 text-xl lg:leading-9 leading-7 text-gray-800 dark:text-gray-100">
             Our Mission Is To Make People Financially Strong And Independent
           </h2>
-          <h4 className="font-bold text-lg md:text-2xl text-[#03989e] dark:text-[#00c2cb] cursor-pointer mt-4">
-            Our Social Media Handles
-          </h4>
-          <div className="flex items-center space-x-4 text-white my-3">
-            <a
-              href="https://www.facebook.com/equitytank"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaSquareFacebook
-                fontSize={35}
-                className=" transition duration-300 bg-[#3b5998] hover:bg-[#4267B2] p-2 rounded-full"
-              />
-            </a>
-            <a
-              href="https://x.com/equitytank?s=20"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaXTwitter
-                fontSize={35}
-                className=" transition duration-300 bg-[#3b5998] hover:bg-[#4267B2] p-2 rounded-full"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/equitytank/?hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaSquareInstagram
-                fontSize={35}
-                className=" transition duration-300 bg-[#3b5998] hover:bg-[#4267B2] p-2 rounded-full"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/equitytank-institute/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin
-                fontSize={35}
-                className=" transition duration-300 bg-[#3b5998] hover:bg-[#4267B2] p-2 rounded-full"
-              />
-            </a>
-            <a
-              href="http://www.youtube.com/@EquityTank"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaYoutube
-                fontSize={35}
-                className=" transition duration-300 bg-[#3b5998] hover:bg-[#4267B2] p-2 rounded-full"
-              />
-            </a>
+          <div className="flex w-full items-center justify-center flex-col">
+            <h4 className="font-bold text-xl md:text-4xl text-[#03989e] dark:text-[#00c2cb] cursor-pointer mt-4">
+              Our Social Media Handles
+            </h4>
+            <div className="flex items-center space-x-4 text-white my-3">
+              <a
+                href="https://www.facebook.com/equitytank"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaSquareFacebook
+                  fontSize={40}
+                  className=" transition duration-300 bg-blue-600 hover:bg-blue-500 p-2 rounded-full"
+                />
+              </a>
+              <a
+                href="https://x.com/equitytank?s=20"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter
+                  fontSize={40}
+                  className=" transition duration-300 bg-black hover:bg-gray-950 p-2 rounded-full border"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/equitytank/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaSquareInstagram
+                  fontSize={40}
+                  className=" transition duration-300 bg-pink-700 hover:bg-pink-600 p-2 rounded-full"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/equitytank-institute/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin
+                  fontSize={40}
+                  className=" transition duration-300 bg-sky-600 hover:bg-sky-700 p-2 rounded-full"
+                />
+              </a>
+              <a
+                href="http://www.youtube.com/@EquityTank"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube
+                  fontSize={40}
+                  className=" transition duration-300 bg-red-600 hover:bg-red-700 p-2 rounded-full"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className="lg:flex items-center w-full lg:w-1/2 ">

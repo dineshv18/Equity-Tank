@@ -23,7 +23,7 @@ export const metadata = {
 const OnliceCourse = () => {
   return (
     <div className="flex flex-col">
-      <CarouselScroll images={images} timing={2000} />
+      <CarouselScroll images={images} />
       <h1 className="text-3xl md:text-5xl lg:text-6xl uppercase text-center font-bold bg-clip-text text-transparent bg-gradient-to-r  dark:from-[#00c2cb] dark:to-green-600  from-[#1a8085] to-green-400 mt-5">
         Our Online Course
       </h1>

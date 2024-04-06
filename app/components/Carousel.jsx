@@ -1,40 +1,72 @@
 "use client";
-import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
-
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
+import React, { useRef, useEffect } from "react";
 import Image from "next/image";
+import Slider from "react-slick";
 
-const CarouselScroll = ({ images, timing }) => {
-  const plugin = React.useRef(
-    Autoplay({ delay: timing, stopOnInteraction: true })
-  );
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const CarouselScroll = ({ images }) => {
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      sliderRef.current.slickNext();
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
-    <Carousel
-      plugins={[plugin.current]}
-      className="w-full"
-      onMouseEnter={plugin.current.stop}
-      onMouseLeave={plugin.current.reset}
-    >
-      <CarouselContent>
-        {images?.map((item, index) => (
-          <CarouselItem key={index}>
-            <div className="w-full  shadow-lg">
-              <Image
-                width={1920}
-                height={1080}
-                src={item.img}
-                alt={`Slide ${index + 1}`}
-              />
-            </div>
-          </CarouselItem>
+    <div className="w-full relative ">
+      <Slider ref={sliderRef} {...settings}>
+        {images.map((image, index) => (
+          <div key={index} className="w-full ">
+            <Image
+              src={image.img}
+              alt="carousel"
+              width={800}
+              height={500}
+              layout="responsive"
+            />
+          </div>
         ))}
-      </CarouselContent>
-    </Carousel>
+      </Slider>
+    </div>
   );
 };
 

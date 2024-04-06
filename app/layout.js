@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import SocialLinks from "./components/SocialLinks";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Navbar />
+          <SocialLinks />
           {children}
           <Analytics />
           <Footer />

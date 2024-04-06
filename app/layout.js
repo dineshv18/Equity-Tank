@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import SocialLinks from "./components/SocialLinks";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
           <SocialLinks />
           {children}
           <Analytics />
+          <SpeedInsights />
           <Footer />
         </ThemeProvider>
       </body>

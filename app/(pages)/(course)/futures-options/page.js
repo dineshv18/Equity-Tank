@@ -1,5 +1,6 @@
 import Certificate from "@/app/components/Certificate";
 import CourseCurriculum from "@/app/components/CourseCurriculum";
+import FaqQuesAns from "@/app/components/FaqQues";
 import Pagination from "@/app/components/Pagination";
 import Providing from "@/app/components/Providing";
 import Course from "@/app/components/course/Course";
@@ -45,6 +46,7 @@ const FuturesOptions = () => {
 
       <Providing />
       <Certificate img={"/certificate/futures-options.png"} />
+      <FaqQuesAns />
     </div>
   );
 };

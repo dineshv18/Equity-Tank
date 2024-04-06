@@ -1,6 +1,7 @@
 import CarouselScroll from "@/app/components/Carousel";
 import Certificate from "@/app/components/Certificate";
 import CourseCurriculum from "@/app/components/CourseCurriculum";
+import FaqQuesAns from "@/app/components/FaqQues";
 import Providing from "@/app/components/Providing";
 import Course from "@/app/components/course/Course";
 import Image from "next/image";
@@ -67,6 +68,7 @@ const OnliceCourse = () => {
         <CourseCurriculum list={list2} />
         <Providing />
         <Certificate img={"/certificate/futures-options.png"} />
+        <FaqQuesAns />
       </div>
     </div>
   );

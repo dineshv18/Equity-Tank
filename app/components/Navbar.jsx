@@ -7,6 +7,7 @@ import { CgClose } from "react-icons/cg";
 import Link from "next/link";
 import { ModeToggle } from "./Mode";
 import { useTheme } from "next-themes";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ const Navbar = () => {
       <nav
         className={`bg-white dark:bg-black z-[100] start-0 border-b border-gray-200 dark:border-gray-700 shadow md:inset-x-0 md:border-t ${
           isSticky
-            ? "sticky top-0 md:translate-y-3 md:w-4/5 mx-auto md:rounded-3xl md:shadow-md z-[100] transition-all duration-300"
+            ? "sticky top-0 md:translate-y-3 md:w-11/12 mx-auto md:rounded-3xl md:shadow-md z-[100] transition-all duration-300"
             : "w-full z-[100] "
         }  dark:shadow-[0_0_1px_#fff,inset_0_0_1px_#fff,0_0_3px_#00c2cb,0_0_10px_#00c2cb,0_0_15px_#00c2cb]`}
       >
@@ -67,7 +68,38 @@ const Navbar = () => {
               ))}
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <div className="mx-2">
+            <div className="mx-2 flex gap-2 items-center justify-center">
+              <a
+                href="https://wa.me/+919315071969?text=I'm%20interested%20in%20your%20classes"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="lg:block hidden"
+              >
+                <Button variant="success">
+                  <Image
+                    src="/whatsapp.png"
+                    alt="whatsapp"
+                    width={20}
+                    height={20}
+                    className="inline-block mr-2"
+                  />
+                  WhatsApp
+                </Button>
+              </a>
+              <a
+                href="https://wa.me/+919315071969?text=I'm%20interested%20in%20your%20classes"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" lg:hidden flex items-center justify-center"
+              >
+                <Image
+                  src="/whatsapp.png"
+                  alt="whatsapp"
+                  width={20}
+                  height={20}
+                  className="inline-block mr-2"
+                />
+              </a>
               <ModeToggle />
             </div>
 
@@ -146,7 +178,7 @@ const Navbar = () => {
                             onClick={() => setIsOpen(false)}
                             className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                           >
-                            Tesimonials
+                            Testimonials
                           </Link>
                         </li>
                         <li>

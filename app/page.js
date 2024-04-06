@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs";
+import FaqQuesAns from "./components/FaqQues";
 import Hero from "./components/Hero";
 import Know from "./components/Know";
 import PriceCard from "./components/PriceCard";
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyChoose />
       <BrokenCard />
       <Testimonial />
+      <FaqQuesAns />
     </div>
   );
 }

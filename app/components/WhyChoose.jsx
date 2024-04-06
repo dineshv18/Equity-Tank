@@ -67,7 +67,7 @@ const WhyChoose = () => {
             <div className="mx-auto container w-full flex flex-col justify-center items-center">
               <div className="flex justify-center items-center flex-col">
                 <div className="mt-20">
-                  <h2 className="lg:text-6xl md:text-5xl text-2xl font-black text-center  text-[#03989e] dark:text-[#00c2cb] ">
+                  <h2 className="lg:text-6xl md:text-5xl text-2xl mb-4 font-black text-center  text-[#03989e] dark:text-[#00c2cb] ">
                     Why Choose Us?
                   </h2>
                 </div>

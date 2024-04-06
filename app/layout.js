@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,14 @@ export const metadata = {
   },
   description:
     "share market classes in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi. Learn share market from the best share market institute in Delhi. Equity Tank is the best share market institute in Delhi.",
+  twitter: {
+    card: "summary_large_image",
+    image: "/opengraph-image.png",
+  },
+  facebook: {
+    card: "summary_large_image",
+    image: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -21,6 +30,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="system">
           <Navbar />
           {children}
+          <Analytics />
           <Footer />
         </ThemeProvider>
       </body>

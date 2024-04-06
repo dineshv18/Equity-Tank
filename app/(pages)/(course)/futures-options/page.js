@@ -14,7 +14,7 @@ const FuturesOptions = () => {
   return (
     <div className="flex flex-col w-full">
       <Image
-        src="/banner/4.png"
+        src="/banner/2.png"
         width={1920}
         height={1080}
         alt="smart-trades"

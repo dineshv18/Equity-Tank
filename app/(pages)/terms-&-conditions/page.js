@@ -37,40 +37,39 @@ const TermsConditions = () => {
         any changes constitutes acceptance of those changes.
       </p>
       <p className="text-gray-800 dark:text-gray-200 text-base leading-6">
-        Please be aware that by accessing https://www.gettogetherfinance.com/
-        and its content/products/services, YOU AGREE TO BE BOUND BY ALL OF THE
-        TERMS AND CONDITIONS OF THIS AGREEMENT. The Terms set out below (and the
-        documents referred to in them (these “Terms”) form the legal agreement
-        between you as the user (“You”) and a company doing business as (or in
-        some jurisdictions “trading as”), Equity Tank pvt ltd (Business
-        Name)(“We” or “Us”), as described below. PLEASE READ THESE TERMS
-        CAREFULLY BEFORE YOU BUY ANY PRODUCTS AND SERVICES AVAILABLE THROUGH
-        EQUITY TANK PVT LTD (Business Name) OR ITS WEBSITE, AS THESE TERMS WILL
-        APPLY TO YOU. BY USING OUR PRODUCTS/SERVICES, YOU ARE ACKNOWLEDGING THAT
-        YOU HAVE READ AND UNDERSTAND THESE TERMS (INCLUDING THE DOCUMENTS OR
-        HYPERLINK REFERRED TO IN THEM) AND THAT YOU AGREE TO BE BOUND BY THESE
-        TERMS. IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS, YOU SHOULD
-        PROMPTLY LEAVE THIS WEBSITE. WE MAY REVISE THESE TERMS FROM TIME TO TIME
-        BY AMENDING THESE PAGES WITHOUT PRIOR NOTICE TO YOU. PLEASE CHECK THESE
-        PAGES FROM TIME TO TIME TO SEE IF ANY CHANGES HAVE BEEN MADE, AS THEY
-        WILL BE BINDING ON YOU IF YOU CONTINUE TO USE AND ACCESS OUR
-        PRODUCTS/SERVICES. Your continued use of our Products/Services following
-        the posting of any changes to these Terms and Conditions constitutes
-        your acceptance of those changes, and you are responsible for reviewing
-        those terms. Some new functionality, products, or services that become
-        available in the future may be subject to new terms and conditions. If
-        those new terms and conditions conflict with these Terms, the new terms
-        and conditions will prevail.
+        Please be aware that by accessing https://www.equitytank.com/ and its
+        content/products/services, YOU AGREE TO BE BOUND BY ALL OF THE TERMS AND
+        CONDITIONS OF THIS AGREEMENT. The Terms set out below (and the documents
+        referred to in them (these “Terms”) form the legal agreement between you
+        as the user (“You”) and a company doing business as (or in some
+        jurisdictions “trading as”), Equity Tank pvt ltd (Business Name)(“We” or
+        “Us”), as described below. PLEASE READ THESE TERMS CAREFULLY BEFORE YOU
+        BUY ANY PRODUCTS AND SERVICES AVAILABLE THROUGH EQUITY TANK PVT LTD
+        (Business Name) OR ITS WEBSITE, AS THESE TERMS WILL APPLY TO YOU. BY
+        USING OUR PRODUCTS/SERVICES, YOU ARE ACKNOWLEDGING THAT YOU HAVE READ
+        AND UNDERSTAND THESE TERMS (INCLUDING THE DOCUMENTS OR HYPERLINK
+        REFERRED TO IN THEM) AND THAT YOU AGREE TO BE BOUND BY THESE TERMS. IF
+        YOU DO NOT AGREE TO BE BOUND BY THESE TERMS, YOU SHOULD PROMPTLY LEAVE
+        THIS WEBSITE. WE MAY REVISE THESE TERMS FROM TIME TO TIME BY AMENDING
+        THESE PAGES WITHOUT PRIOR NOTICE TO YOU. PLEASE CHECK THESE PAGES FROM
+        TIME TO TIME TO SEE IF ANY CHANGES HAVE BEEN MADE, AS THEY WILL BE
+        BINDING ON YOU IF YOU CONTINUE TO USE AND ACCESS OUR PRODUCTS/SERVICES.
+        Your continued use of our Products/Services following the posting of any
+        changes to these Terms and Conditions constitutes your acceptance of
+        those changes, and you are responsible for reviewing those terms. Some
+        new functionality, products, or services that become available in the
+        future may be subject to new terms and conditions. If those new terms
+        and conditions conflict with these Terms, the new terms and conditions
+        will prevail.
       </p>
       <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-gray-200 mb-5">
         Our Products/Services
       </h1>
       <p className="text-gray-800 dark:text-gray-200 text-base leading-6">
         Your level of access to products/services available through
-        https://www.gettogetherfinance.com/ will depend upon which products and
-        services you have paid for. We have the full right to remove you from
-        Telegram Group Or Community if you violate the rules or misbehave with
-        someone.
+        https://www.equitytank.com/ will depend upon which products and services
+        you have paid for. We have the full right to remove you from Telegram
+        Group Or Community if you violate the rules or misbehave with someone.
         <br />
         <br />
         We have the right to make changes to the agreement at any time whether
@@ -174,16 +173,16 @@ const TermsConditions = () => {
         is at least eighteen (18) years old and have read, understand, and agree
         to be bound by all of these terms and conditions as amended from time to
         time. If you do not agree, then you must cease using the Equity Tank pvt
-        ltd Services and leave our website https://www.gettogetherfinance.com/
-        Equity Tank pvt ltd Services are designed for individuals. If you are
-        entering into these Terms on behalf of a company, partnership, or
-        another legal entity, you represent that you have the authority to bind
-        that legal entity to these terms and that your participation in Equity
-        Tank pvt ltd Services is not for commercial gain. In order to ensure
-        that all our members enjoy the highest quality of experience within
-        Equity Tank pvt ltd Services we reserve the right to suspend any
-        person’s participation in Equity Tank pvt ltd Services at any time for
-        any reason whatsoever in our sole discretion.
+        ltd Services and leave our website https://www.equitytank.com/ Equity
+        Tank pvt ltd Services are designed for individuals. If you are entering
+        into these Terms on behalf of a company, partnership, or another legal
+        entity, you represent that you have the authority to bind that legal
+        entity to these terms and that your participation in Equity Tank pvt ltd
+        Services is not for commercial gain. In order to ensure that all our
+        members enjoy the highest quality of experience within Equity Tank pvt
+        ltd Services we reserve the right to suspend any person’s participation
+        in Equity Tank pvt ltd Services at any time for any reason whatsoever in
+        our sole discretion.
       </p>
       <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-gray-200 mb-5">
         Rules of Use

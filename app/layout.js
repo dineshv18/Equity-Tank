@@ -23,6 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     image: "/opengraph-image.png",
   },
+  metadataBase: "https://www.equitytank.com/",
 };
 
 export default function RootLayout({ children }) {

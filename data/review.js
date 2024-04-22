@@ -98,4 +98,49 @@ export const review = [
     img: "/review/Alok kumar.jpeg",
     position: "center",
   },
+  {
+    id: 12,
+    name: "Mani sharma",
+    review:
+      "Class, Trainer, and environment all are amazing, it's very helpful to me for learn Trading. I am learning basic to advance course and currently 7th has been completed since my course begins. All doubts are cleared, even smaller to smaller doubt has taken very seriously in class. It's wonderful to join Equity Tank",
+    star: 5,
+    img: "/review/Mani sharma.jpeg",
+    position: "center",
+  },
+  {
+    id: 13,
+    name: "sagar shrestha",
+    review:
+      "The Equity Tank - Stock Market Institute offered a top-notch educational environment to Stock Market enthusiast. The instructor, Dinesh Sir, is very knowledgeable and helpful, and the classes are extensive. I had an excellent educational experience at the institute and heartily endorse it to anyone wishing to get knowledgeable about the stock market. Dinesh Sir, is an excellent technical analysis mentor at Equity Tank - Stock Market Institute. His teaching approach and level of experience are outstanding, simplifying difficult concepts. He is an excellent tutor, in my opinion. highly recommend to every future traders.",
+    star: 5,
+    img: "/review/sagar shrestha.jpeg",
+    position: "center",
+  },
+  {
+    id: 14,
+    name: "prateek",
+    review:
+      "It's an ideal platform to get answers for all your questions. I am very happy to get associated with  equity tank... Dinesh sir is very excellent coach and mentor for trading and life management also.",
+    star: 5,
+    img: "/review/prateek.jpeg",
+    position: "top",
+  },
+  {
+    id: 15,
+    name: "Ujjawal sharma",
+    review:
+      "I'm incredibly grateful for the opportunity to participate in the physical share market classes in Equity Tank . The interactive sessions and hands-on exercises have been instrumental in boosting my confidence as a trader.",
+    star: 5,
+    img: "/review/Ujjawal sharma.jpeg",
+    position: "top",
+  },
+  {
+    id: 16,
+    name: "Bhanu verma",
+    review:
+      "As a student, Equity Tank has been a game-changer for me in understanding the stock market. Their resources are incredibly helpful for beginners like myself, and their affordable pricing makes it accessible for students on a budget. The insights and guidance I've received from Equity Tank have significantly improved my understanding of investing and have empowered me to start building my portfolio with confidence. Highly recommended for fellow students looking to enter the world of investing!",
+    star: 5,
+    img: "/review/Bhanu verma.jpg",
+    position: "center",
+  },
 ];

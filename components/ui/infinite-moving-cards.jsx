@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 
 import StarRatings from "react-star-ratings";
 
@@ -95,16 +95,18 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <span className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.review}
+                {item.review.split(" ").slice(0, 30).join(" ") + "..."}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                <Image
-                  width={40}
-                  height={40}
-                  src={item?.img}
-                  alt={item.name}
-                  className="w-10 h-10 object-cover rounded-full mr-4"
-                />
+                <Suspense fallback={<div>Loading...</div>}>
+                  <Image
+                    width={40}
+                    height={40}
+                    src={item?.img}
+                    alt={item.name}
+                    className="w-10 h-10 object-cover rounded-full mr-4"
+                  />
+                </Suspense>
                 <span className="flex flex-col gap-1">
                   <span className="text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}

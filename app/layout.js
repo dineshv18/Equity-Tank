@@ -15,7 +15,7 @@ export const metadata = {
     template: "%s | Equity Tank",
   },
   description:
-    "Equity Tank offers the best share market classes in Delhi. Learn stock trading, technical analysis, and investment strategies from expert instructors. Join our comprehensive courses to master the share market.",
+    "Equity Tank offers the best share market classes in Delhi. Learn stock trading, technical analysis, and investment strategies from expert instructors.",
   metadataBase: new URL("https://www.equitytank.com"),
   alternates: {
     canonical: "/",
@@ -67,56 +67,62 @@ export const metadata = {
 
 export const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  name: "Equity Tank",
-  description:
-    "Premier share market institute in Delhi offering comprehensive stock market classes and training programs.",
-  url: "https://www.equitytank.com",
-  logo: "https://www.equitytank.com/logo.png",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress:
-      "2nd Floor, H-9, Street no.19, Main Rajapuri Rd, New Delhi, Delhi 110059",
-    addressLocality: "Delhi",
-    addressRegion: "Delhi",
-    postalCode: "110059",
-    addressCountry: "IN",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+91-9315071969",
-    contactType: "customer support",
-  },
-  sameAs: [
-    "https://www.facebook.com/equitytank",
-    "https://www.twitter.com/equitytank",
-    "https://www.linkedin.com/company/equitytank",
-  ],
-  offers: [
+  "@graph": [
     {
-      "@type": "Offer",
-      name: "Beginner's Stock Market Course",
+      "@type": "WebSite",
+      "@id": "https://www.equitytank.com/#website",
+      url: "https://www.equitytank.com",
+      name: "Equity Tank",
+      description: "Best Share Market Classes in Delhi",
+      potentialAction: [
+        {
+          "@type": "SearchAction",
+          target: "https://www.equitytank.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
+      ],
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://www.equitytank.com/#organization",
+      name: "Equity Tank",
+      url: "https://www.equitytank.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.equitytank.com/logo.png",
+        width: 600,
+        height: 60,
+      },
+      sameAs: [
+        "https://www.facebook.com/equitytank",
+        "https://www.twitter.com/equitytank",
+        "https://www.linkedin.com/company/equitytank",
+      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "2nd Floor, H-9, Street no.19, Main Rajapuri Rd",
+        addressLocality: "New Delhi",
+        addressRegion: "Delhi",
+        postalCode: "110059",
+        addressCountry: "IN",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91-9315071969",
+        contactType: "customer support",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.equitytank.com/#webpage",
+      url: "https://www.equitytank.com",
+      name: "Equity Tank - Best Share Market Classes in Delhi",
+      isPartOf: { "@id": "https://www.equitytank.com/#website" },
+      about: { "@id": "https://www.equitytank.com/#organization" },
       description:
-        "Comprehensive course for beginners to understand stock market basics",
-      url: "https://www.equitytank.com/courses/beginners-stock-market",
-    },
-    {
-      "@type": "Offer",
-      name: "Advanced Technical Analysis",
-      description: "In-depth technical analysis course for experienced traders",
-      url: "https://www.equitytank.com/courses/advanced-technical-analysis",
-    },
-    {
-      "@type": "Offer",
-      name: "Options Trading Masterclass",
-      description: "Specialized course on options trading strategies",
-      url: "https://www.equitytank.com/courses/options-trading-masterclass",
+        "Equity Tank offers the best share market classes in Delhi. Learn stock trading, technical analysis, and investment strategies from expert instructors.",
     },
   ],
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": "https://www.equitytank.com",
-  },
 };
 
 export default function RootLayout({ children }) {

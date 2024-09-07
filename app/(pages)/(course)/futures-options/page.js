@@ -38,7 +38,8 @@ const FuturesOptions = () => {
         description2={
           "This course is designed for those who want to trade options professionally, in this course you will get to know how options premium calculated with the help of Greeks. Whether the options premium is cheap or expensive, when to be an option buyer and when to be a seller. "
         }
-        price={"2999"}
+        price={"5999"}
+        duration={"2"}
         discount={"6999"}
         message={"I am Interested in ET – Futures & Options"}
       />

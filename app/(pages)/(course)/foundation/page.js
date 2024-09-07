@@ -38,7 +38,8 @@ const Foundation = () => {
         description2={
           "This course will make your foundation strong about stock market. At the end of course, you will be able to pick a fundamentally strong share for invest and you will also start trading in stocks. "
         }
-        price={"1999"}
+        price={"2499"}
+        duration={"3"}
         discount={"3999"}
         message={"I am Interested in Stock Foundation Programme"}
       />

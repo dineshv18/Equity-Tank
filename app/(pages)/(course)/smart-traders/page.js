@@ -33,7 +33,8 @@ const SmartTraders = () => {
         description2={
           "This course will make your psychology strong and make you more accurate in your trading. At the end of your course, you’ll start doing trade like banks & Institutions."
         }
-        price={"2499"}
+        price={"3999"}
+        duration={"3"}
         discount={"5999"}
         message={"I am Interested in Smart Traders Course"}
       />

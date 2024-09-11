@@ -10,6 +10,7 @@ const Course = ({
   discount,
   message,
   img,
+  duration,
 }) => {
   return (
     <div className="flex items-center justify-center flex-col lg:flex-row px-2 py-1">
@@ -36,7 +37,7 @@ const Course = ({
               <span>
                 Duration:{" "}
                 <span className="text-[#03989e] dark:text-[#00c2cb] mx-1">
-                  3 Months
+                  {duration} Months
                 </span>
               </span>
             </span>

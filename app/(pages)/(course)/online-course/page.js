@@ -41,7 +41,8 @@ const OnliceCourse = () => {
           description2={
             "This course will make your psychology strong and make you more accurate in your trading. At the end of your course, you’ll start doing trade like banks & Institutions."
           }
-          price={"2499"}
+          price={"3499"}
+          duration={"3"}
           discount={"5999"}
           message={"I am Interested in Smart Traders Course"}
         />
@@ -61,7 +62,8 @@ const OnliceCourse = () => {
           description2={
             "This course is designed for those who want to trade options professionally, in this course you will get to know how options premium calculated with the help of Greeks. Whether the options premium is cheap or expensive, when to be an option buyer and when to be a seller. "
           }
-          price={"2999"}
+          price={"5499"}
+          duration={"2"}
           discount={"6999"}
           message={"I am Interested in ET – Futures & Options"}
         />

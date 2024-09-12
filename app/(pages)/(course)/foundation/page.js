@@ -40,7 +40,7 @@ const Foundation = () => {
         }
         price={"2499"}
         duration={"3"}
-        discount={"3999"}
+        discount={"4165"}
         message={"I am Interested in Stock Foundation Programme"}
       />
       <CourseCurriculum list={list} />

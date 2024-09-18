@@ -43,7 +43,7 @@ const OnliceCourse = () => {
           }
           price={"3499"}
           duration={"3"}
-          discount={"5999"}
+          discount={"5831"}
           message={"I am Interested in Smart Traders Course"}
         />
         <CourseCurriculum list={list} />
@@ -64,7 +64,7 @@ const OnliceCourse = () => {
           }
           price={"5499"}
           duration={"2"}
-          discount={"6999"}
+          discount={"9165"}
           message={"I am Interested in ET – Futures & Options"}
         />
         <CourseCurriculum list={list2} />

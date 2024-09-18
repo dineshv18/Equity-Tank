@@ -35,7 +35,7 @@ const SmartTraders = () => {
         }
         price={"3999"}
         duration={"3"}
-        discount={"5999"}
+        discount={"6665"}
         message={"I am Interested in Smart Traders Course"}
       />
       <CourseCurriculum list={list} />

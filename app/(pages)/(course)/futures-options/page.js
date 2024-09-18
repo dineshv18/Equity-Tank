@@ -40,7 +40,7 @@ const FuturesOptions = () => {
         }
         price={"5999"}
         duration={"2"}
-        discount={"6999"}
+        discount={"9999"}
         message={"I am Interested in ET – Futures & Options"}
       />
       <CourseCurriculum list={list} />
